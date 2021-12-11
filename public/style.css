@@ -1,0 +1,92 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container { 
+    padding: 0 40px;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    }
+nav ul li {
+    margin: 10px;
+}
+nav ul li a {
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: black;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+li.item a span {
+    width: 50%;
+}
+li.item a p {
+    width: 50%;
+}
+li.item a {
+    text-decoration: none;
+}
+.item {
+    margin: 20px;
+
+    
+}
+ul {
+    list-style: none;
+}
+.add_new {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+input {
+    width: 33%;
+    height: 40px;
+    margin: 10px;
+}
+button {
+    width: 150px;
+}
+
+ul.start {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+ul.start li {
+    margin: 200px 0;
+    width: 33%;
+    text-align: center;
+}
+.add_new {
+    display: block;
+    width: 100px;
+    padding: 30px 40px;
+    background-color: turquoise;
+    color:black;
+    text-decoration: none;
+}
+.item{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 588px;
+    justify-content: space-between;
+}
+.question {
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
